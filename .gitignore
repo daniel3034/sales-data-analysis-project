@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (you may want to commit small datasets)
+*.csv
+*.xlsx
+*.xls
+# Uncomment the line below if you want to include sales_data.csv
+# !sales_data.csv
+
+# Output files
+*.png
+*.jpg
+*.json
+!requirements.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+cleaned_data.csv
+top_categories.csv
+monthly_sales.csv
+analysis_results.json
+sales_analysis_results.png
+
+
+# Tutorial files
+TUTORIAL.md
