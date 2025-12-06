@@ -49,14 +49,6 @@ Use this checklist to track your progress through the project.
 - [ ] Document interesting findings in comments
 - [ ] Note any data quality issues
 
-**Key findings:**
-
-- Dataset has 5000 records
-- 5 product categories
-- 24 months of data (2022-2023)
-- No missing values
-- Sales range from $5.94 to $17,971.55
-
 ---
 
 ### Thursday: Answer Question 1 (2 hours)
@@ -71,12 +63,6 @@ Use this checklist to track your progress through the project.
 
 **Answer:**
 
-1. Electronics: $5,337,104.04
-2. Furniture: $4,031,759.69
-3. Home & Garden: $1,299,754.11
-4. Clothing: $579,783.96
-5. Office Supplies: $247,911.77
-
 ---
 
 ### Friday: Answer Question 2 (2 hours)
@@ -87,12 +73,6 @@ Use this checklist to track your progress through the project.
 - [x] Aggregate with .sum()
 - [x] Calculate average, min, max
 - [x] Print monthly trend summary
-
-**Answer:**
-
-- Average monthly sales: $479,013.07
-- Peak month: March 2023 ($608,149.27)
-- Lowest month: June 2023 ($394,817.57)
 
 ---
 
@@ -276,23 +256,23 @@ After completing the project, answer these questions:
 
 1. **What was the most challenging part of this project?**
 
-   _Your answer here_
+   The most challenging part was understanding how to properly handle data encoding issues when loading the CSV file. The Superstore dataset had encoding problems that caused Unicode errors, requiring me to implement fallback encoding methods (latin-1). Additionally, adapting the code to match the actual column names in the real dataset (with spaces instead of underscores) taught me the importance of exploring data structure before writing analysis code.
 
 2. **What did you learn about data analysis?**
 
-   _Your answer here_
+   I learned that data analysis is much more than just running calculations - it involves a systematic process of loading, cleaning, exploring, and transforming data before meaningful insights can be extracted. I discovered how powerful pandas library functions like groupby(), resample(), and to_datetime() are for aggregating and transforming data. Most importantly, I learned that real-world datasets require careful cleaning and validation, and that visualizations are crucial for communicating findings effectively to stakeholders.
 
 3. **What would you do differently next time?**
 
-   _Your answer here_
+   Next time, I would start by thoroughly exploring the dataset structure before writing any code, including checking column names, data types, and sample values. I would also add more robust error handling and data validation early in the process. Additionally, I would create a data dictionary documenting what each column represents, and I would implement unit tests to verify that my analysis functions work correctly with different types of input data.
 
 4. **What additional analysis would be interesting to do?**
 
-   _Your answer here_
+   Several interesting analyses could extend this project: (1) Analyzing profitability by comparing profit margins across the three categories to see which is most profitable, not just highest revenue; (2) Regional analysis to identify which geographic regions perform best for each product category; (3) Customer segmentation analysis using the Segment column to understand buying patterns; (4) Seasonal trend analysis to identify specific months or quarters with peak sales; (5) Sub-category deep dive to find the top-performing products within each major category; (6) Correlation analysis between discount rates and sales volume to optimize pricing strategies.
 
 5. **How could this analysis be useful in a real business?**
 
-   _Your answer here_
+   This analysis provides actionable business intelligence in several ways: (1) **Inventory Management** - knowing that Technology generates the most revenue helps prioritize inventory investment and warehouse space allocation; (2) **Sales Strategy** - the balanced revenue distribution across three categories suggests the business has successfully diversified and isn't overly dependent on one product line; (3) **Trend Forecasting** - the 25x growth from 2014 to 2017 indicates strong business expansion, helping with capacity planning and hiring decisions; (4) **Seasonal Planning** - identifying peak months (like November 2017) allows businesses to prepare staffing, inventory, and marketing campaigns accordingly; (5) **Resource Allocation** - understanding monthly variations helps optimize cash flow management and plan promotional activities during slower periods.
 
 ---
 
