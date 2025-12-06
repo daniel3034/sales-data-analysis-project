@@ -10,7 +10,7 @@ This project analyzes sales transaction data from a retail business spanning 201
 
 The purpose of this software is to demonstrate proficiency in data manipulation, statistical analysis, and visualization by answering specific business questions through code. This project showcases skills in filtering, sorting, grouping, aggregating data, and converting data types - all essential capabilities for data-driven decision making.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=1rAzH-96hfo)
 
 # Data Analysis Results
 
